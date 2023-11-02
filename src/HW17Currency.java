@@ -6,6 +6,8 @@ public class HW17Currency {
     public static void main(String[] args) {
         Random random = new Random();
 
+        System.out.println("USD buying rate today: ");
+
         Bank bank01 = new Bank("Приват", 5 * random.nextDouble() + 35);
         Bank bank02 = new Bank("АВАЛЬ", 5 * random.nextDouble() + 35);
         Bank bank03 = new Bank("Сенс", 5 * random.nextDouble() + 35);
